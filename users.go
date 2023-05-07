@@ -679,7 +679,7 @@ func (user *User) GetFeaturedAccounts() ([]*User, error) {
 	}
 
 	d := struct {
-		Accounts []*User `json:"accounts"`
+		Accounts []*User `json:"users"`
 		Status   string  `json:"status"`
 	}{}
 	err = json.Unmarshal(body, &d)
