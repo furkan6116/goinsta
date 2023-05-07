@@ -127,7 +127,7 @@ const (
 	urlFeedLiked        = "feed/liked/"
 	urlConsent          = "consent/existing_user_flow/"
 	urlNotifBadge       = "notifications/badge/"
-	urlFeaturedAccounts = "multiple_accounts/get_featured_accounts/"
+	urlFeaturedAccounts = "fbsearch/accounts_recs/"
 
 	// Collections
 	urlCollectionsList     = "collections/list/"
