@@ -105,7 +105,7 @@ func (w *Wrapper) GoInstaWrapper(o *ReqWrapperArgs) ([]byte, http.Header, error)
 			)
 		}
 		insta.infoHandler(
-			fmt.Sprintf("Auto solving of checkpoint with url '%s' seems to have gone successful. This is an experimental feature, please let me know if it works! :)\n",
+			fmt.Sprintf("Auto solvng of checkpoint with url '%s' seems to have gone successful. This is an experimental feature, please let me know if it works! :)\n",
 				insta.Checkpoint.URL,
 			))
 
